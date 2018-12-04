@@ -1,16 +1,10 @@
-package com.second_task;
+package com.second_task.algorithms;
 
 import java.util.Arrays;
 
 public class BelroseVillaAlgorithm {
-    public static void main(String[] args) {
 
-        String word = "adult";
-        String wordsArr[] = getBelroseVillaAlgorithm(word);
-        otherTasks(wordsArr, word);
-    }
-
-    private static String[] getBelroseVillaAlgorithm(String word) {
+    public String[] getBelroseVillaAlgorithm(String word) {
 
         String wordsArr[] = new String[word.length()];
         int currentPosition;
@@ -30,7 +24,7 @@ public class BelroseVillaAlgorithm {
         return wordsArr;
     }
 
-    private static void otherTasks(String[] wordsArr, String word) {
+    public void otherTasks(String[] wordsArr, String word) {
 
         Arrays.sort(wordsArr);
 
