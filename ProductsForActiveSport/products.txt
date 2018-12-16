@@ -1,0 +1,9 @@
+Mask, 1, 0.3
+Trubka, 1, 0.15
+Akvalang, 1, 5.15
+Lasty, 1, 0.8
+Parashut, 2, 10.2
+Sky, 3, 7.5
+SkyCostym, 3, 5.35
+skyMask, 3, 0.3
+Gun, 3, 0.57
